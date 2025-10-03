@@ -1,6 +1,6 @@
 package br.com.alura.sreenmatch.modelos;
 
-public class Titulo {
+public class Titulo  implements Comparable<Titulo> {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -73,5 +73,9 @@ public class Titulo {
             return 0; // Evita divisão por zero
         }
         return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }
