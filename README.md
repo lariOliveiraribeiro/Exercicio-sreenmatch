@@ -6,7 +6,7 @@ Projeto desenvolvido como exercício prático em Java, com foco na aplicação d
 
 O **Screenmatch** simula um sistema de filmes e séries, utilizando classes, atributos e métodos para organizar os dados e executar ações como exibir informações e calcular classificações.
 
-Este projeto faz parte dos estudos em Java no curso da [Alura](https://www.alura.com.br).
+
 
 ## 🚀 Funcionalidades
 
